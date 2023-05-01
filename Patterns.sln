@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "Behav
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenerativePatterns", "GenerativePatterns", "{475F7C7E-DB2C-4454-BBB9-6CFFA8BF15B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Patterns\StructuralPatterns\Decorator\Decorator.csproj", "{72A9AF57-9F56-4E89-9020-4EFACD51624B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Patterns\StructuralPatterns\Decorator\Decorator.csproj", "{72A9AF57-9F56-4E89-9020-4EFACD51624B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Patterns\GenerativePatterns\FactoryMethod\FactoryMethod.csproj", "{3D90B643-9F76-434C-BE87-8E74BCF63972}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{72A9AF57-9F56-4E89-9020-4EFACD51624B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72A9AF57-9F56-4E89-9020-4EFACD51624B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72A9AF57-9F56-4E89-9020-4EFACD51624B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D90B643-9F76-434C-BE87-8E74BCF63972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D90B643-9F76-434C-BE87-8E74BCF63972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D90B643-9F76-434C-BE87-8E74BCF63972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D90B643-9F76-434C-BE87-8E74BCF63972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{B226164E-CB2B-49D5-8672-C47910892A32} = {CEFE4DA8-E4D6-4A30-945B-921627160534}
 		{475F7C7E-DB2C-4454-BBB9-6CFFA8BF15B4} = {CEFE4DA8-E4D6-4A30-945B-921627160534}
 		{72A9AF57-9F56-4E89-9020-4EFACD51624B} = {AD0A2A71-7EC1-48E4-BF62-47E027614890}
+		{3D90B643-9F76-434C-BE87-8E74BCF63972} = {475F7C7E-DB2C-4454-BBB9-6CFFA8BF15B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A31E498C-9A30-4198-8B4A-CD603DB60ABC}
