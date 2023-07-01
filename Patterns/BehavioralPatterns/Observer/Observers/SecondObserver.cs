@@ -16,7 +16,7 @@ namespace Observer.Observers
         {
             if (price < 350)
             {
-                Console.WriteLine($"First observer bought product by {price}");
+                Console.WriteLine($"Second observer bought product by {price}");
                 product.RemoveObserver(this);
             }
         }
